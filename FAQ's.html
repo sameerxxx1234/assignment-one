@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<!-- Responsive Indexfile -->
+<link rel="stylesheet" href="Css/IndexMediaquerry.css">
+<link rel="stylesheet" href="Css/footerResponsiv.css">
+<!-- Responsive Indexfile -->
+<link rel="stylesheet" href="Css/index.css">
+<link rel="shortcut icon" href="./images/Olympic_rings_without_rims.svg.png" type="image/x-icon">
+<title>Olympics/FAQ's</title>
+
+<style>
+    .navbar {
+  background-color: black !important;
+  padding-left: 100px;
+  padding-right: 100px;
+  box-shadow: 10px 2px 10px gray;
+}
+
+.nav-link {
+  color: white !important;
+}
+.navbar-brand {
+  color: white;
+  display: flex;
+}
+.navbar-brand h1 {
+  font-size: 25px;
+  margin-left: 10px;
+}
+.navbar-brand h1:hover {
+  color: white !important;
+}
+.navbar-brand img {
+  height: 20px;
+  margin-left: 20px;
+}
+   .mycontainer{
+    font-family: "Poppins";
+    margin-top: 150px;
+
+  }
+  .accordion-button:not(.collapsed) {
+    color: yellow;
+    background-color: black;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+
+}
+/* footer css */
+
+body {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+.footer {
+  background-color: #24262b;
+  height: 150px;
+  padding-top: 100px !important;
+
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+  color: #ffffff;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0%;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 75px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8%;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(225, 225, 225, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+</style>
+
+</head>
+<body>
+     <!-- NavBar Start -->
+     <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <div>
+              <img src="images/Olympic_rings_without_rims.svg.png"  alt="" >
+            </div>
+            <div><h1>Olympics</h1></div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./atheletes.html">Athelets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./eventpage.html">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./sports.html">Sports</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./FAQ's.html">FAQs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  <!-- NavBar End -->
+
+
+  <!-- Accordian Start -->
+   <div class="container mycontainer mb-5">
+        <h1 class=" text-center mt-5 fw-bold">Frequently Asked Questions</h1>
+        <p class="text-center mt-4 ">If you have more Quetions, feel free to <a href="./">contact us</a> </p>
+        <!-- Accordian Start -->
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item mt-5">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    What are the Olympic Games?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">The Olympic Games are a prestigious international sporting event where athletes from around the world compete in various sports disciplines, showcasing their skills and representing their countries.</div>
+              </div>
+            </div>
+            <div class="accordion-item mt-5">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    When and where are the next Olympic Games?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">The location and timing of the Olympic Games vary. Refer to our website's event calendar or news section for updates on upcoming Olympic Games.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mt-5">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    How often do the Olympic Games occur?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">The Summer and Winter Olympic Games take place every four years, alternating every two years. Therefore, there is an Olympic Games event every two years. </div>
+              </div>
+            </div>
+            <div class="accordion-item mt-5">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
+                    How can I purchase tickets for the Olympic Games?
+                  </button>
+                </h2>
+                <div id="flush-collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Ticket availability and purchase procedures depend on the specific Olympic Games and the organizing committee. Visit our ticketing section for more information and relevant links to official ticket vendors.</div>
+                </div>
+              </div>
+
+              <div class="accordion-item mt-5">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
+                    What sports are included in the Olympic Games?
+                  </button>
+                </h2>
+                <div id="flush-collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">The Olympic Games feature a wide range of sports, including athletics, swimming, gymnastics, cycling, basketball, soccer, skiing, snowboarding, and many more. Refer to our sports section for a comprehensive list.
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="accordion-item mt-5">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsesix" aria-expanded="false" aria-controls="flush-collapsesix">
+                    How are host cities chosen for the Olympic Games?
+                  </button>
+                </h2>
+                <div id="flush-collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Host cities are selected through a rigorous bidding process managed by the International Olympic Committee (IOC). Factors such as infrastructure, venue readiness, and the city's ability to host the event are considered during the selection process.
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="accordion-item mt-5">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseseven" aria-expanded="false" aria-controls="flush-collapseseven">
+                    Are there age restrictions for participating in the Olympic Games?
+                  </button>
+                </h2>
+                <div id="flush-collapseseven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Eligibility criteria vary for each sport and are determined by the respective international sports federations and the IOC. Athletes must meet specific age and qualification standards to compete in the Olympic Games.</div>
+                </div>
+              </div>
+
+              <div class="accordion-item mt-5">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseeight" aria-expanded="false" aria-controls="flush-collapseeight">
+                    Can I volunteer at the Olympic Games?
+                  </button>
+                </h2>
+                <div id="flush-collapseeight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Yes, volunteering opportunities are often available for individuals interested in contributing to the success of the Olympic Games. Check our volunteer section for updates on how to get involved.</div>
+                </div>
+              </div>
+
+
+              <div class="accordion-item mt-5">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsenine" aria-expanded="false" aria-controls="flush-collapsenine">
+                    How can I stay updated on Olympic news and events?
+                  </button>
+                </h2>
+                <div id="flush-collapsenine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Our website provides regular updates on Olympic news, event schedules, athlete profiles, and more. You can also follow us on social media platforms for real-time updates and behind-the-scenes content.</div>
+                </div>
+              </div>
+
+
+              <div class="accordion-item mt-5">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseten" aria-expanded="false" aria-controls="flush-collapseten">
+                    Are there opportunities for sponsorship or partnership with the Olympic Games?
+                  </button>
+                </h2>
+                <div id="flush-collapseten" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">For sponsorship and partnership inquiries, please contact our sponsorship department. We welcome collaborations with organizations that share our values and commitment to promoting the spirit of the Olympic Games.
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="accordion-item mt-5">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseeleven" aria-expanded="false" aria-controls="flush-collapseeleven">
+                    How are athletes selected to represent their countries in the Olympic Games?
+                  </button>
+                </h2>
+                <div id="flush-collapseeleven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Each country has its own selection process to determine which athletes will represent them at the Olympic Games. This often involves trials, qualification events, and national rankings. Athletes who meet the qualification criteria set by their respective national Olympic committees are typically chosen to compete
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="accordion-item mt-5">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsetwelve" aria-expanded="false" aria-controls="flush-collapsetwelve">
+                    What are the Paralympic Games, and how do they differ from the Olympic Games?
+                  </button>
+                </h2>
+                <div id="flush-collapsetwelve" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">The Paralympic Games are similar to the Olympic Games but specifically for athletes with physical disabilities. The Paralympics feature a wide range of sports and follow a similar format to the Olympics, with athletes competing at the highest level of their respective sports.
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="accordion-item mt-5">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsethirteen" aria-expanded="false" aria-controls="flush-collapsethirteen">
+                    Can I watch the Olympic Games live online?
+                  </button>
+                </h2>
+                <div id="flush-collapsethirteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Many broadcasters offer live streaming of Olympic events on their websites or through dedicated streaming platforms. Check our broadcasting section for information on where to watch the Olympic Games live online in your region. </div>
+                </div>
+              </div>
+
+
+
+
+              <div class="accordion-item mt-5">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefourteen" aria-expanded="false" aria-controls="flush-collapsefourteen">
+                    What measures are in place to ensure fair competition at the Olympic Games?
+                  </button>
+                </h2>
+                <div id="flush-collapsefourteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">The Olympic Games uphold strict standards of fair play and integrity. Measures such as drug testing, anti-doping protocols, and rules against cheating are enforced to ensure that all athletes compete on a level playing field. </div>
+                </div>
+              </div>
+
+
+
+
+              <div class="accordion-item mt-5">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefifteen" aria-expanded="false" aria-controls="flush-collapsefifteen">
+                    How are venues and facilities prepared for the Olympic Games?
+                  </button>
+                </h2>
+                <div id="flush-collapsefifteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Host cities invest significant resources in building or renovating venues and facilities to meet the requirements of the Olympic Games. These projects often involve infrastructure upgrades, construction of new stadiums, and improvements to transportation networks.</div>
+                </div>
+              </div>
+
+
+
+
+              <div class="accordion-item mt-5">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsesixteen" aria-expanded="false" aria-controls="flush-collapsesixteen">
+                    Are there opportunities for cultural exchange at the Olympic Games?
+                  </button>
+                </h2>
+                <div id="flush-collapsesixteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body"> Yes, the Olympic Games promote cultural exchange and understanding among nations. Cultural events, exhibitions, and programs showcasing the host country's heritage and traditions are often organized alongside the sporting events.</div>
+                </div>
+              </div>
+
+
+
+              <div class="accordion-item mt-5">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseseventeen" aria-expanded="false" aria-controls="flush-collapseseventeen">
+                    What legacy do the Olympic Games leave for host cities?
+                  </button>
+                </h2>
+                <div id="flush-collapseseventeen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Hosting the Olympic Games can have a lasting impact on host cities, including infrastructure improvements, increased tourism, and economic development. The legacy of the Olympic Games varies depending on factors such as planning, investment, and community engagement.
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="accordion-item mt-5">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseeightteen" aria-expanded="false" aria-controls="flush-collapseeightteen">
+                    How can I get involved in supporting my country's Olympic team?
+                  </button>
+                </h2>
+                <div id="flush-collapseeightteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">You can show your support for your country's Olympic team by attending events, cheering for athletes, purchasing official merchandise, and engaging with social media campaigns. Many national Olympic committees also offer opportunities for fans to become official supporters.</div>
+                </div>
+              </div>
+
+
+
+              <div class="accordion-item mt-5">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsenineteen" aria-expanded="false" aria-controls="flush-collapsenineteen">
+                    What role do sponsors play in the Olympic Games?
+                  </button>
+                </h2>
+                <div id="flush-collapsenineteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Sponsors play a crucial role in supporting the Olympic Games financially and logistically. They provide funding, resources, and expertise to help organize and promote the event. In return, sponsors receive exposure and branding opportunities during the Olympic Games.</div>
+                </div>
+              </div>
+
+
+
+              <div class="accordion-item mt-5">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsenine" aria-expanded="false" aria-controls="flush-collapsenine">
+                    Can I visit Olympic venues and facilities outside of the Games period?
+                  </button>
+                </h2>
+                <div id="flush-collapsenine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Many Olympic venues and facilities are open to the public for tours and visits outside of the Games period. Check our venue section for information on how to visit Olympic sites and experience the legacy of the Games firsthand.</div>
+                </div>
+              </div>
+
+
+          </div>
+          <p class="text-center fw-bold mt-5">Feel free to customize these FAQs based on the specific focus and objectives of your Olympic website. </p>
+          
+    </div>
+  <!-- Accordian End -->
+  
+  
+  
+
+<!-- Footer Start -->
+<footer>
+    <div class="container2">
+        <div class="row">
+            <div class="footer-col" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+                <h4 style="margin-left: 40%;" >About Us</h4>
+                <ul>
+                    <p style="font-size: small; text-align: justify;"><a href=""></a>The Olympics represent the epitome of global sportsmanship, uniting athletes worldwide in a celebration of excellence and perseverance. Since their inception, the Games have served as a testament to human achievement, transcending borders and languages to inspire generations. Rooted in ancient tradition yet constantly evolving, the Olympics stand as a beacon of unity, fostering respect, friendship, and fair play among nations. </p>
+
+
+                </ul>
+            </div>
+             <div class="footer-col" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+                <h4 style="margin-left: 15%;">UseFull Links</h4>
+                <ul>
+                    <li style="margin-left: 15%;" ><a href="./index.html">Home</a></li>
+                    <li style="margin-left: 15%;"><a href="./about.html">About</a></li>
+                    <li style="margin-left: 15%;"><a href=""></a>Contact</li>
+                    <li style="margin-left: 15%;"><a href="./site map.html">Site Map</a></li>
+                    <li style="margin-left: 15%;"><a href=""></a>FAQs</li>
+                </ul>
+            </div>
+            <div class="footer-col" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000" >
+                <h4 style="margin-left: 15%;" >Contact Info</h4>
+                <ul>
+                    <li style="margin-left: 6%;"><a href="" ></a>+92 370 0107313</li>
+                    <li style="margin-left: 6%;"><a href=""></a>+92 317 1253398</li>
+                    <li style="margin-left: 6%;"><a href=""></a>Bennnyelisha@gmail.com</li>
+                    <li style="margin-left: 6%;"><a href=""></a>horBhaiKIyaHaAlHai@gmial.com</li>
+                    <li style="margin-left: 6%;"><a href=""></a>Karachi,Pakistan</li>
+                </ul>
+            </div>
+            <div class="footer-col" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+                <h4 style="margin-left: 17%;" >Follow Us</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/olympics"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/Olympics"><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/checkpoint/lg/login?session_redirect=https%3A%2F%2Fch%2Elinkedin%2Ecom%2Fcompany%2Finternational-olympic-committee&fromSignIn=true&trk=organization_guest_google-one-tap-submit"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer ENd -->
+  
+  
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

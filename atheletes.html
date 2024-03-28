@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<title>Title</title>
+<style>
+    
+    .col img{
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        padding:1px;
+        margin-top:15%;
+        transition: all 0.3s;
+        box-shadow: 5px 7px 5px #222122;
+        filter: drop-shadow(5px 7px 8px #222122);
+        
+        
+        
+        
+    }
+    h2{
+        font-size:15px;
+        margin-bottom:1px;
+        margin-top: 15px;
+    }
+    img:hover{
+        transform: scale(1.1);
+    }
+    .paralink{
+        color: black;
+        text-decoration: none;
+    }
+    .paralink:hover{
+        text-decoration: underline;
+    }
+    .navbar {
+  background-color: black !important;
+  padding-left: 100px;
+  padding-right: 100px;
+  box-shadow: 10px 2px 10px gray;
+}
+
+.nav-link {
+  color: white !important;
+}
+.navbar-brand {
+  color: white;
+  display: flex;
+}
+.navbar-brand h1 {
+  font-size: 25px;
+  margin-left: 10px;
+}
+.navbar-brand h1:hover {
+  color: white !important;
+}
+.navbar-brand img {
+  height: 20px;
+  margin-left: 20px;
+}
+/* footer css */
+
+body {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+.footer {
+  background-color: #24262b;
+  height: 150px;
+  padding-top: 100px !important;
+
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+  color: #ffffff;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 38%;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 75px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8%;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(225, 225, 225, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+.container2 {
+  height: 400px;
+  background-color: rgb(0, 0, 0);
+  padding-top: 100px;
+}
+ul {
+  list-style: none;
+}
+
+    
+   
+    
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <div>
+              <img src="images/Olympic_rings_without_rims.svg.png" alt="" >
+            </div>
+            <div><h1>Olympics</h1></div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Athelets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./eventpage.html">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./sports.html">Sports</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <center>
+        <br>
+    <h1 style="font-weight: 500;">ATHELETES</h1></center>
+    <br>
+    <center>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <a href="file:///C:/Users/MAKRO/Desktop/aptect%20work/neeraj%20biography.html"><img src="./images/n1.webp"  alt=""></a>
+                <h2>NEERAJ CHOPRA</h2>
+                <br>
+               <a href="file:///C:/Users/MAKRO/Desktop/aptect%20work/neeraj%20biography.html" class="paralink"> <p class="paralink">IND,ATHELETICS</p></a>
+            </div>
+            <div class="col">
+                <a href="file:///C:/Users/MAKRO/Desktop/aptect%20work/almand%20biography.html"><img src="./images/n2.webp" alt=""></a>
+                <h2>ARMAND DUPLANTIS</h2>
+                <br>
+                <a href="file:///C:/Users/MAKRO/Desktop/aptect%20work/almand%20biography.html" class="paralink"><p class="paralink">SWE,ATHELETICS</p></a>
+            </div>
+            <div class="col">
+                <a href="file:///C:/Users/MAKRO/Desktop/aptect%20work/carlos%20biography.html"><img src="./images/at 1.webp" alt=""></a>
+                <h2>CARLOS E.YULO</h2>
+                <br>
+                <a href="file:///C:/Users/MAKRO/Desktop/aptect%20work/carlos%20biography.html" class="paralink"><p class="paralink">PHI,ARTISTIC GYMNASTIC</p></a>
+            </div>
+            <div class="col">
+                <a href="file:///C:/Users/MAKRO/Desktop/aptect%20work/pv%20sindhu%20biography.html"><img src="./images/at2.webp" alt=""></a>
+                <h2>PV.SINDHU</h2>
+                <br>
+                <a href="file:///C:/Users/MAKRO/Desktop/aptect%20work/pv%20sindhu%20biography.html" class="paralink"><p class="paralink">IND,BADMINTON</p></a>
+            </div>
+            <div class="col">
+                <a href="file:///C:/Users/MAKRO/Desktop/aptect%20work/serena%20biography.html"><img src="./images/at3.webp" alt=""></a>
+                <h2>SERENA WILLIAMS</h2>
+                <br>
+                <a href="file:///C:/Users/MAKRO/Desktop/aptect%20work/serena%20biography.html" class="paralink"><p class="paralink">USA,TENNIS</p></a>
+            </div>
+        </div>
+
+
+        <!-- 2nd -->
+        <div class="row">
+            <div class="col">
+                <a href="file:///C:/Users/MAKRO/Desktop/aptect%20work/yarosla%20biography.html"><img src="./images/at5.webp"  alt=""></a>
+                <h2>YAROSLAVA MAHUCHIKH</h2>
+                <br>
+                <a href="file:///C:/Users/MAKRO/Desktop/aptect%20work/yarosla%20biography.html" class="paralink"><p class="paralink">URK,ATHELETICS</p></a>
+            </div>
+            <div class="col">
+                <a href="file:///C:/Users/MAKRO/Desktop/aptect%20work/winfred%20biography.html"><img src="./images/at6.webp" alt=""></a>
+                <h2>WINFRED MUTILE</h2>
+                <br>
+                <a href="file:///C:/Users/MAKRO/Desktop/aptect%20work/winfred%20biography.html" class="paralink"><p class="paralink">BRN,ATHELETICS</p></a>
+            </div>
+            <div class="col">
+                <a href="file:///C:/Users/MAKRO/Desktop/aptect%20work/yulimar%20biography.html"><img src="./images/at7.webp" alt=""></a>
+                <h2>YULIMAR ROJAS</h2>
+                <br>
+                <a href="file:///C:/Users/MAKRO/Desktop/aptect%20work/yulimar%20biography.html" class="paralink"><p class="paralink">VEN,ATHELETICS</p></a>
+            </div>
+            <div class="col">
+                <a href="file:///C:/Users/MAKRO/Desktop/aptect%20work/marcus%20biography.html"><img src="./images/at8.webp" alt=""></a>
+                <h2>MARCUS D'ALMEIDIA</h2>
+                <br>
+                <a href="file:///C:/Users/MAKRO/Desktop/aptect%20work/marcus%20biography.html" class="paralink"><p class="paralink">BRA,ARCHERY</p></a>
+            </div>
+            <div class="col">
+                <a href="file:///C:/Users/MAKRO/Desktop/aptect%20work/coco%20biography.html"><img src="./images/at9.webp" alt=""></a>
+                <h2>COCO GAUFF</h2>
+                <br>
+                <a href="file:///C:/Users/MAKRO/Desktop/aptect%20work/coco%20biography.html" class="paralink"><p class="paralink">USA,TENNIS</p></a>
+            </div>
+        </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+<br><br><br>
+<h1>YOU MAY LIKE</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <iframe width="300" height="200" class="" src="./videos/🏐🔥 Monster Blocks from Barthelemy Chinenyeze.mp4" frameborder="5" allowfullscreen></iframe>
+                <h3>Jesse Owens</h3>
+                <p>Jesse Owens' Historic Wins at the Berlin <br> 1936 Olympics | Throwback Thursday</p>
+            </div>
+            <div class="col">
+                <iframe width="300" height="200" src="" frameborder="0" allowfullscreen></iframe>
+                <h3>Jesse Owens</h3>
+                <p>Jesse Owens' Historic Wins at the Berlin <br> 1936 Olympics | Throwback Thursday</p>
+            </div>
+            <div class="col">
+                <iframe width="300" height="200" src="./Jesse Owens' Historic Wins at the Berlin 1936 Olympics _ Throwback Thursday.mp4" frameborder="0" allowfullscreen></iframe>
+                <h3>Jesse Owens</h3>
+                <p>Jesse Owens' Historic Wins at the Berlin <br> 1936 Olympics | Throwback Thursday</p>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+
+  <footer>
+    <div class="container2">
+        <div class="row">
+            <div class="footer-col" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+                <h4 style="margin-left: 30%;" >About Us</h4>
+                <ul>
+                    <p style="font-size: small; text-align: justify; margin-left: 25%;"><a href=""></a>The Olympics represent the epitome of global sportsmanship, uniting athletes worldwide in a celebration of excellence and perseverance. Since their inception, the Games have served as a testament to human achievement, transcending borders and languages to inspire generations. Rooted in ancient tradition yet constantly evolving, the Olympics stand as a beacon of unity, fostering respect, friendship, and fair play among nations. </p>
+
+
+                </ul>
+            </div>
+             <div class="footer-col" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+                <h4 style="margin-left: 35%;">UseFull Links</h4>
+                <ul>
+                    <li style="margin-left: 15%;" ><a href="./index.html">Home</a></li>
+                    <li style="margin-left: 15%;"><a href="./about.html">About</a></li>
+                    <li style="margin-left: 15%;"><a href=""></a>Contact</li>
+                    <li style="margin-left: 15%;"><a href="./site map.html">Site Map</a></li>
+                    <li style="margin-left: 15%;"><a href=""></a>FAQs</li>
+                </ul>
+            </div>
+            <div class="footer-col" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000" >
+                <h4 style="margin-left: 10%;" >Contact Info</h4>
+                <ul>
+                    <li style="margin-left: 6%;"><a href="" ></a>+92 370 0107313</li>
+                    <li style="margin-left: 6%;"><a href=""></a>+92 317 1253398</li>
+                    <li style="margin-left: 6%;"><a href=""></a>Bennnyelisha@gmail.com</li>
+                    <li style="margin-left: 6%;"><a href=""></a>horBhaiKIyaHaAlHai@gmial.com</li>
+                    <li style="margin-left: 6%;"><a href=""></a>Karachi,Pakistan</li>
+                </ul>
+            </div>
+            <div class="footer-col" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+                <h4 style="margin-right: 5%;" >Follow Us</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/olympics"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/Olympics"><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/checkpoint/lg/login?session_redirect=https%3A%2F%2Fch%2Elinkedin%2Ecom%2Fcompany%2Finternational-olympic-committee&fromSignIn=true&trk=organization_guest_google-one-tap-submit"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</html>
+
+
+
+
+
+
+
+
+
+</center>
+
+
+
